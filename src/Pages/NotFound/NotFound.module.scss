@@ -1,0 +1,46 @@
+@import 'src/Styles/variables';
+
+.notFound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  a {
+    margin-top: 3rem;
+    color: $primaryColor;
+    font-size: 14px;
+
+    @media screen and (min-width: $mobileBreak) {
+      font-size: 18px;
+    }
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: $primaryColor;
+
+  h2 {
+    font-size: 96px;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  @media screen and (min-width: $mobileBreak) {
+    h2 {
+      font-size: 288px;
+    }
+
+    p {
+      font-size: 36px;
+    }
+  }
+}
