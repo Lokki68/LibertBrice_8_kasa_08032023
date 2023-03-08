@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 20px;
+  height: 68px;
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    color: #FF6060;
+
+    a {
+      color: inherit;
+      font-size: 18px;
+      font-weight: 500;
+      margin: 0 10px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    margin: 40px 100px;
+
+    nav > a {
+      font-size: 24px;
+    }
+  }
+}
+
+.headerLogo {
+  height: 68px;
+  width: 210px;
+}
