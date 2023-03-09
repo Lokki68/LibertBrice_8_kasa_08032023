@@ -1,9 +1,12 @@
-import React from 'react';
+import React from "react";
+import Styles from "./Home.module.scss";
+import Banner from "../../Components/Banner/Banner";
 
 const Home = () => {
   return (
     <div>
-      Home
+      <Banner />
+      {/* Liste logements  */}
     </div>
   );
 };
