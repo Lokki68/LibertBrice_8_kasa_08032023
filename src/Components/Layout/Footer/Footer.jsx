@@ -5,7 +5,7 @@ import Styles from "./Footer.module.scss";
 const Footer = () => {
   return (
     <footer className={Styles.footer}>
-      <img src={logo} alt="Kasa logo" />
+      <img src={logo} alt="Kasa logo" loading="lazy" />
       <p>© 2020 Kasa. All rights reserved</p>
     </footer>
   );

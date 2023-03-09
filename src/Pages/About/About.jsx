@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div>
       <div className={Styles.pictureContainer}>
-        <img src={aboutPicture} alt="About picture" />
+        <img src={aboutPicture} alt="About Banner" loading="lazy" />
       </div>
 
       {aboutData.map((data, index) => (

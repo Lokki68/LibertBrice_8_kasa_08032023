@@ -8,7 +8,12 @@ const Header = () => {
 
   return (
     <div className={Styles.header}>
-      <img className={Styles.headerLogo} src={logo} alt="Kasa Logo" />
+      <img
+        className={Styles.headerLogo}
+        src={logo}
+        alt="Kasa Logo"
+        loading="lazy"
+      />
       <nav>
         <NavLink
           to="/"
