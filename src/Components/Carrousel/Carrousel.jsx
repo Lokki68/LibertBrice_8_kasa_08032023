@@ -24,11 +24,19 @@ const Carrousel = ({ pictures, picturesLength }) => {
 
   return (
     <div className={Styles.carrouselContainer}>
-      <i
-        onClick={handlePreviousPicture}
-        className="fa-solid fa-chevron-left"
-      ></i>
-      <i onClick={handleNextPicture} className="fa-solid fa-chevron-right"></i>
+      {picturesLength > 1 && (
+        <>
+          <i
+            onClick={handlePreviousPicture}
+            className="fa-solid fa-chevron-left"
+          ></i>
+          <i
+            onClick={handleNextPicture}
+            className="fa-solid fa-chevron-right"
+          ></i>
+        </>
+      )}
+
       <div className={Styles.carrouselPicture}>
         <img
           src={pictures[carrouselIndex]}
