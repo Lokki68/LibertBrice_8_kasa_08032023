@@ -1,0 +1,36 @@
+@import "src/Styles/variables";
+
+.collapseContainer {
+  max-width: 1023px;
+  min-width: 335px;
+  margin: 20px auto;
+
+}
+
+.collapseBar {
+  padding: 5px 15px;
+  margin: 0 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $primaryColor;
+  color: white;
+
+  p {
+    font-weight: 500;
+  }
+}
+
+.collapseContent {
+  padding: 5px 15px;
+  border-radius: 0 0 5px 5px;
+  margin: 0 20px;
+  height: auto;
+  background-color: #F6F6F6;
+  color: $primaryColor;
+}
+
+.collapse {
+  display: none;
+}
