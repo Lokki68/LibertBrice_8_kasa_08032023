@@ -3,6 +3,10 @@
 
 .logementContainer {
   margin: 0 20px;
+
+  @media  screen and (min-width: $mobileBreak){
+    margin: 0 100px;
+  }
 }
 
 .informationContainer {

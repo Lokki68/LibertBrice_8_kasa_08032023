@@ -9,7 +9,6 @@ import Host from "../../Components/LogementComponents/Host/Host";
 
 const Logement = () => {
   const { property } = useLocation().state;
-  console.log(property);
 
   return (
     <div className={Styles.logementContainer}>
@@ -22,7 +21,7 @@ const Logement = () => {
         <Tags tags={property.tags} />
       </div>
       <div className={Styles.secondContainer}>
-        <Rates />
+        <Rates rates={Number(property.rating)} />
         <Host />
       </div>
     </div>

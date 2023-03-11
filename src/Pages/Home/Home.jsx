@@ -5,7 +5,6 @@ import Banner from "../../Components/Banner/Banner";
 import Gallery from "../../Components/Gallery/Gallery";
 
 const Home = () => {
-  console.log(Properties);
 
   return (
     <div>
