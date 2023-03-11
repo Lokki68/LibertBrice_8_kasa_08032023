@@ -1,0 +1,28 @@
+@import 'src/Styles/variables';
+
+.titleContainer {
+  color: $primaryColor;
+
+  h2 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  @media screen and (min-width: $mobileBreak) {
+
+    margin: 0 100px;
+
+    h2 {
+      font-size: 36px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+}

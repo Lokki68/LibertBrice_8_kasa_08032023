@@ -13,7 +13,6 @@ const Carrousel = ({ pictures, picturesLength }) => {
   };
 
   // console.table(pictures);
-  console.log(carrouselIndex);
   const handlePreviousPicture = () => {
     if (carrouselIndex > 0) {
       setCarrouselIndex(carrouselIndex - 1);
