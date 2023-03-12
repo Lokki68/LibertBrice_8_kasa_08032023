@@ -1,14 +1,7 @@
 import React from 'react';
 
 
-/**
- *
- * @param width number
- * @param height number
- * @param active boolean
- * @returns {JSX.Element}
- * @constructor
- */
+
 const Star = ({width, height, active}) => {
   return (
     <svg width={width} height={height} viewBox="0 0 16 16" fill={active ? "#FF6060" : "#E3E3E3"} xmlns="http://www.w3.org/2000/svg">

@@ -3,6 +3,7 @@ import Card from "./Card";
 import Styles from "./Gallery.module.scss";
 import { Link } from "react-router-dom";
 
+
 const Gallery = ({ properties }) => {
   return (
     <div className={Styles.galleryContainer}>

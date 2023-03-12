@@ -1,6 +1,14 @@
 import React, { useState } from "react";
 import Styles from "./Carrousel.module.scss";
 
+/**
+ *
+ * @param {Array.string} pictures
+ * @param {number} picturesLength
+ * @returns {JSX.Element}
+ * @constructor
+ */
+
 const Carrousel = ({ pictures, picturesLength }) => {
   const [carrouselIndex, setCarrouselIndex] = useState(0);
 
